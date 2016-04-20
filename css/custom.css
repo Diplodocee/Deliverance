@@ -6,8 +6,10 @@
 }
 
 .page-header img {
+  position: absolute;
+  top: -5vw;
+  left: 30vw;
   width: 40%;
-  left:30%;
 }
 
 body {
