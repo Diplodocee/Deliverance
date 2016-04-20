@@ -27,3 +27,8 @@ body {
   position: relative;
   margin-top: 20px;
 }
+
+.main-stuff img{
+  margin: auto;
+  margin: 20px;
+}
