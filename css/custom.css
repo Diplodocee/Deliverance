@@ -32,3 +32,7 @@ body {
   margin: auto;
   margin: 40px;
 }
+
+.dropdown {
+  width:50%;
+}
