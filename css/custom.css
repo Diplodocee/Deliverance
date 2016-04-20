@@ -1,27 +1,28 @@
 .page-header {
-  position: absolute;
-  top: 0;
+  position: relative;
+  margin-top: 1 vw;
   height: 20vw;
   background-color: black;
+  width:100%;
 }
 
 .page-header img {
-  position: absolute;
-  top: -5vw;
+  position: relative;
+  margin-top: -30px;
   left: 30vw;
   width: 40%;
 }
 
 body {
   background-color: black;
+  width:100%;
 }
 
 .navbar {
-  position: absolute;
-  top: 20vw;
+  position: relative;
 }
 
 .main-stuff {
-  position: absolute;
-  top: 30vw;
+  position: relative;
+  margin-top: 20px;
 }
