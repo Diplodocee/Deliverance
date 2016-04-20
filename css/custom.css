@@ -1,1 +1,6 @@
-
+.page-header{
+  position: absolute;
+  top: 0;
+  height: 300px;
+  background-color: black;
+}
