@@ -8,6 +8,7 @@
 
 .page-header img {
   position: relative;
+  top:-30px;
   left: 30vw;
   width: 40%;
 }
