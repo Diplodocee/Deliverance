@@ -1,14 +1,20 @@
 .page-header {
   position: absolute;
   top: 0;
-  height: 300px;
+  height: 20vw;
   background-color: black;
 }
 
 .page-header img {
   width: 40%;
+  left:30%;
 }
 
 body {
   background-color: black;
+}
+
+.navbar {
+  position: absolute;
+  top: 20vw;
 }
