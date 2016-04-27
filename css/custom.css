@@ -18,7 +18,7 @@ body {
   width:100%;
 }
 
-.navbar {
+.page-header .navbar {
   position: relative;
   top: -50px;
 }
@@ -37,17 +37,17 @@ body {
   width:50%;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
+@media (min-width: 768px) and (max-width: 2000px) {
+    .song-directory .navbar-collapse.collapse {
         display: none !important;
     }
-    .navbar-collapse.collapse.in {
+    .song-directory .navbar-collapse.collapse.in {
         display: block !important;
     }
-    .navbar-header .collapse, .navbar-toggle {
+    .song-directory .navbar-header .collapse, .navbar-toggle {
         display:block !important;
     }
-    .navbar-header {
+    .song-directory .navbar-header {
         float:none;
     }
 }
