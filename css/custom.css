@@ -18,7 +18,7 @@ body {
   width:100%;
 }
 
-.page-header .navbar {
+.navbar {
   position: relative;
   top: -50px;
 }
@@ -44,7 +44,7 @@ body {
     .song-directory .navbar-collapse.collapse.in {
         display: block !important;
     }
-    .song-directory .navbar-header .collapse, .navbar-toggle {
+    .song-directory .navbar-header .collapse, .song-directory .navbar-toggle {
         display:block !important;
     }
     .song-directory .navbar-header {
