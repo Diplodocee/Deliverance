@@ -84,27 +84,26 @@
             
         <div class="col-xs-10 col-md-5">
           <h2>Contact Us</h2>
-          <form role="form">
-            <?php include 'form.php';?>
+          <form role="form" action="form.php" method="post">
           <div class="form-group">
             <label for="name">Name:</label>
-            <input type="name" class="form-control" id="name">
+            <input type="name" class="form-control" id="name" name="name">
           </div>
           <div class="form-group">
             <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email">
+            <input type="email" class="form-control" id="email" name="email">
           </div>
           <div class="form-group">
             <label for="message">Message:</label>
-            <input type="text" class="form-control" rows="5" id="message">
+            <input type="text" class="form-control" rows="5" id="message" name="message">
           </div>
           <div class="checkbox">
-            <label><input type="checkbox"> Would you like us to e-mail you about upcoming Deliverance events?</label>
+            <label><input type="checkbox" name="subscribe" value="Yes" /> Would you like us to e-mail you about upcoming Deliverance events?</label>
           </div>
           <div class="checkbox">
-            <label><input type="checkbox"> Would you like to audition for Deliverance?</label>
+            <label><input type="checkbox" name="audition" value="Yes" /> Would you like to audition for Deliverance?</label>
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
           <div id="msgSubmit" class="h3 text-center hidden">Thanks for your message!</div>
         </form>
         </div>
