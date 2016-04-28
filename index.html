@@ -104,7 +104,11 @@
             <label><input type="checkbox" name="audition" value="Yes" /> Would you like to audition for Deliverance?</label>
           </div>
           <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-          <div id="msgSubmit" class="h3 text-center hidden">Thanks for your message!</div>
+          <div class="form-group">
+        		<div class="col-sm-10 col-sm-offset-2">
+        			<?php echo $result; ?>	
+        		</div>
+        	</div>
         </form>
         </div>
       </div>
