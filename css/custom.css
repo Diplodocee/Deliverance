@@ -59,3 +59,19 @@ body {
     border: 1px solid #eee;
     border-radius: 4px;
 }
+
+/*forms*/
+form div {
+  margin-bottom: 20px;
+}
+
+/*modal*/
+.modal {
+    max-width: 800px;
+    min-width: 300px;
+    width: auto;
+}
+
+.modal img {
+  width: 100%;
+}
