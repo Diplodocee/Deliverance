@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.modal.css" media="screen">
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,6 +21,37 @@
     <![endif]-->
   </head>
   <body>
+    
+    
+     <!-- Modals; Edit with care -->
+    <div id="img1" style="display:none;">
+
+      <h2>Contact Deliverance</h2>
+
+      <form action="//formspree.io/ludwa.borra+01@gmail.com" method="POST">
+        <div>
+          <label>Name</label>
+          <input type="text" name="name">
+        </div>
+        <div>
+          <label>E-mail Address</label>
+          <input type="text" name="mail">
+        </div>
+        <div>
+          <label>Message</label>
+          <input type="text" name="message">
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+
+    </div>
+    
+    
+    
+    
+    
     <div class="page-header">
       <img src="https://github.com/Diplodocee/Deliverance/blob/gh-pages/deliveranceforshirt.png?raw=true">
     </div>
@@ -65,77 +97,39 @@
            To see the sheet music we use and to watch videos of past performances, check out the Song Directory by clicking Music. 
            Feel free to browse through pictures of the group in our Gallery or to learn more about who we are and what we do by clicking About.
            If you're interested in hearing us in concert or would like to know what you've been missing, check out what we're up to on the Events page.
-           And if what you find excites you and you'd like to join our cause, you can find out how on the Audition page.</p>
-           <p>Questions? Feel free to contact us on Facebook (link below), via e-mail (wudeliverance@gmail.com), or by filling out the form at the bottom of the page.</p>
+           And if what you find excites you and you'd like to join us, you can find out how on the Audition page.</p>
         </div> <!-- col -->
           
         </div>
+
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+   
         
-        <div class="row">
-        <div class="col-xs-10 col-md-5">
-          
-        </div>
             
-        <div class="col-xs-10 col-md-5">
-          <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Contact us, subscribe to e-mails, or sign up to audition
-          </button>
-          <div class="collapse" id="collapseExample">
-            <div class="well">
-              <iframe src="https://docs.google.com/forms/d/1Z2Mhu_gfkCTgAoBqawn0wfW6R5E3T8qepg4IUF7TnsM/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </div>
-          </div>
+        <div class="col-xs-10 col-md-10" style="text-align:center; font-family:Bodoni MT;">
+          <h3 style="color:white;">Whether you want to make a music suggestion, ask a question, recieve e-mails about upcoming events, or are interested in joining the cause,
+          please contact us at <b>wudeliverance@gmail.com</b> or by using this form:</h3>
+          <br>
+          <a href="#img1" rel="modal:open" class="btn btn-default">
+            Contact Us
+          </a>
           
         </div>
       </div>
+    
       
       
       <br>
       <br>
       
-      <div class="row">
-        <div class="col-xs-10 col-md-5">
-          
-        </div>
-            
-        <div class="col-xs-10 col-md-5">
-          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#wireframes" aria-expanded="false" aria-controls="collapseExample">
-            Wireframes
-          </button>
-          <div class="collapse" id="wireframes">
-            <div class="well">
-              <h2>Home</h2>
-              <img src="https://lh3.googleusercontent.com/iVkB3wSIVT28MWMGGOh_W_ThCTjmmkLIw9Dlm9orx1ANLF0s37eD3OnMYgvGLDHsxjH4M86Y-kIgh4DnmS-XTE33iUYrzGrEC5Ccu2CeEHw1P34r8JTUUZnuCPvxbrzZhVDGVBngiXnR9xsJlGIHUjwZZD-cKqGEalFKkuyW7Y9C0stpzqGvN0T1-_q5c9vniJbLwSJwbOpYK-mRPjen7K8iSz_kSUlMF4jQLimDyCQQej2CzAw5Lv9b9BcdklGaY2PuytH4ue3xJhWDe6hoBxeVmnU8T8n-cGsLdAS4LB-KBsmc-L2VVRcvmS5xtWn7qPFOMZqJwaBtsvCinthnTWSRzNwgjJxO1KTjO-FV29Qo2KFgLw4yMTkJV4_Y3gCp2D3JCE_whBpYa_0HbWLSSsl9zsmP2nHleM50m4MTzJBXYu49EU1ElT-s6qaGHsMDm8qAk-x17nudwVKS1Xs8SCTZpsy-WSTG_bwRjcqo9UxG3_xHPQ82ShjO1zOlJEa6XwmHND29dGOEyFMUG8iVfAIj5wNNJ4-HV2O6k6Xxj1i6rYxbB-MoMMhKTiWVXiWT-mH7oA=w476-h847-no">
-              <h2>About</h2>
-              <img src="https://lh3.googleusercontent.com/9Hy5V7Q65W_9Z3CwaPnhEuF-xhJqhAyy4CBu-MayVWuWZotXEI89caMaC3abW_0E6HmLQv05CMFIgyxbwEBbe_tOPeMfvJqtZPEJdR9lQvB3mvjgx80W_X-jBigCC0lK1S5zXXjFkXUSgjhRpDz7mewumrGMImTpCkZzceMMTe3E77S4-yhPlEnu9sTze651SidwVgIZ5SZdIeXmP9oj6EU520jTN_HfGL4WN4OlJ8exFmSmNMwyXfHHsi5Fy9Dim3R457OrtuD5D9NJxW5TZptgg2trON6KuXja53UcKL2j-LrRPOCT3aJ_cw5x_zZYK78iMd15BZivFwSRI3lvpCnBo7NjGrRa3zmiatC-GG8amEAI_dHRvXS3ooarm93JCcyQfPof9MFlxuM5SHI_1gXeWOJKXb3AXxP0YDlCo61Js4hEGqSeQUooXvBl4z_emSD_IOWS9yFGF4KgmeCRDWQr_ZU-UeJ0t8KTLaFKsACUzNPxEnIwk8mTq8oXCi8jOzpLWaRJaRT7lKOUnePY3EIVX5KGgVYGZijTgEIGTaS-N8iiSuDBW6fLSLpTMy-lwOSHDg=w476-h847-no">
-              <h2>Members</h2>
-              <img src="https://lh3.googleusercontent.com/B__tTqrj2cMUTX3DFGsmxtU4Q-zrNZ8MgjSI1WN7fHapfNOEJeR1a_sERQA2AsNKbEAyEb5qHFQKG0ofrS6F9zprmV8YLaWAe8zyiVbegx7MNnC24otwy43O02brvZNhlOzZkWrTttMhhmQkkaoChi246YZFXH0TvAkQdHIV2yQqryDE3ZI8VEX69XL_nAGYr6onyNmYxAC7qqawH0WT7fXvilKokW65y2JqIwvbc2mQIFapsCagkFysKEoNBKzpc06jwkIACCNE5WD2O-WYowMrVgv1R6ONbJUJlHqhndXVDva5fZL5JWERKbZVGHV0fyEeskVutihhT2Yl66RDRUh7LUBh-2ZKSLlU5ED1gQorrz6cMZhBNEGdAWDUIYKDVl2JFLp6763KM0q-xCJPz1qFgwhPH6ANophLOwIweeq0nhb5RrQfQv-F7YoxCKG6O-sgY0Fcxb6PHbENl10apfcUaTZDay3f2TUPVpBsp4v1vJUkOid7HJlo1SoC6tq877SwZ03UR-Cpu1mgxlSIFmI8pbvaBldI1mMbPlQdQFVYbgq5svNHv3vnQfxziG6eFT28Vw=w476-h847-no">
-              <h2>Music</h2>
-              <img src="https://lh3.googleusercontent.com/eUZuVw2YaNF66MqUOFd03qRJWi8sPTC47WRn6ojOZGHiF6SG9VRTeqbRmp5h4yN4mqa3CTIx0sCjABhUcAnmnhlRSoK4dh9dSRPJpOpK1ai1vS2jv0MEvZkWtaopj1M2ky_V4R3iux2z1sdcCy0rM5pvm9rqN2wDCSAuPUXrDxwmeGBaeeJSADffx3ymSlRzySy_VDfuxCNpYOtHh3ibVdFum67ppiSD_a2M-6uS5uYGrvK7N9k9_g0_avyJglEERU-6s0OlpJtcW6PGEYoJ2NxbxihpZ2tKPDQtlAiDyMI-4L78_JO2AafBsjUghpZ3hZfCR8a3rjOk5eWBPUdMtBepgFc3NeBjbfo6sjugiALEscyxeQ_c4wruCrPFbcMr4L2_wf2KzQnndPWS96bTSDPMcq-gxPCD6HTShIcPyvubT8FCScxiihtdkhyJYLe1CF1J-6WgqgHMCpi9RhyvFNGRAOi7bu3BWtUp1VwGPJEDqRpG0rEyKIl8jTp-BAzmQGDZmcRsYeXKKockIIUuZ7PWWxv3c2zQF_MUl2R84BEaWaumOejaB_nGXLFtbHFGK-nOBw=w476-h847-no">
-              <h2>Audition</h2>
-              <img src="https://lh3.googleusercontent.com/NpSy4Ynhc8eHlCW40bPS94XDhv7l7-QCv08rLWmOuGvlkaFv9-xIl1K20BaZb7-hD3EVxZv8_aQuFw7dNhanGuIqStapXlvP3Qqycd0htmNgrYCruh3SEvzoLAD7Po4he2ewzDmQg8ISIU9BjLi3L-_qz6SnThE6G3H4wxRylPnpLQrFazZGzFOYJw8tQY6EQ2ufAKvJBtm9gdK6_11k_vfmlRNbHFJWcCnYCWF0TtKShrAooOge2URJ3JBZFw5eY4b8xcexglgsbscvDGiXyJXMHMgWM3e2_kGTaF6TzrEA3WiR67gNv_jeUwUJYoQmnYMhqaNEEbe9FU6nxVkSQTS7UkKW8_Agb4idDrLF_M6nCsds2STcXWRhQ3ypbzN6igkUyp0Mgj1sJZkAf8RhcdTgVlC4gqHMH5CbuQq4UQx0mmLB0EJ4w1vs991ZCy8dwUIHQFU47bkUQwkFJE5n9iuaqkxHqMnnJ19HcCsv05Wn5dTh--FzdY87QYY3FAKCMbKOxdsDm93fqcu6BSQjPkerWOF-vOUUjxU_IQVctdjZbuaYPbewsef1BAmaracPNk5AHg=w476-h847-no">
-              <h2>Events</h2>
-              <img src="https://lh3.googleusercontent.com/NOVINNqbQnQcmsoBboJu7833kgyjXXfE2zRJgNLi5ATQF2FC_fdmr4ZqbUmqAvpKutk1o-jfEeswb1i9jd9htwNkrvr6kD13ymulfIQFy8VXmwcZfQPMz00oobdpnlKe8OEHXslk_iGH530BSubW9dKdd2cz2t0_Dv37iBYHzoC5Pe4ics1GCGeSkE2JVVE1skdm8g_quFKkP9-qTW8jGhhnlk5KIYR2gn949XGbycVvWxU7e7xayJau3doWkh88NWFPIaNNVMeQEiosZ9mJ_TdG9Sa0uz_mnoXEvkNsybTNTtIElmB5CGAqdjQSYHqGIrY71BycFxFHZJ2G7grZ6tkLNqsXIzJ-nnDIBoOq_u5i22Y3SdpnX_dygtvcjPqE2J_Vx4azk1WXybNudsmY-iuez-3_SpTKBRhooRWOIjmqFwTBYfWSZBw6yCiOcqVWWuiBVKu26d49_xTdc0vjzr6MyIp-3mYYXtDid4NFwGD4QCvPWnGa7NHnTKe3dUNMVX1BnkNWK7TrKWNnsFg9xDj_bjTltvBciOT-ul-MKLLdo7Rkbx3bm5-SyUku8zeBOuYWKA=w476-h847-no">
-              <h2>Gallery</h2>
-              <img src="https://lh3.googleusercontent.com/bCG-_jEaK7q1pjNcyysjNwWCmwN6oQCMSolxE9wLG8r4oCDtE5ptyoOkTK6UaUFmWUI7k1K-IBmLoJpOHD8BD3QKskiuDiePy7jQH3IOXRg-C5tX1K_GQ8jNzvHudM_F2jWt1DWrHmdC-YVJvDSfAjv6s6zsFPxq8YhhSGtWUBah2F9yI5ZmfnkHGTmP3qRdi9zow73YL1coJX6H-TNduH0w_89DekJZJ8wdMSDtb_YocFunuRu3DO2vu5VEuoX3NoiKyidEESuXO1_rD9icNnopxFPQl3MXnok7L17eXu25YtUVBrFyKZrcIvZr5GEKHqlI8Cx9aYiWwacNbVa1Egt5RcgVzgAgyIBCvQ_pNIsgQLsi2WZXVNweNbJdZpEXZS9criwrsDq08vr6Q_7K8-iAigVnc6B7xD2mJZGLs4tDjO58vSI84hg2fXuXYnV_1h32XlpPNTlrxUFgq1DRkWGjyPx8s_dPASQDhOnAFXeunle1PjvRANTfdM3fVS0HfXVMo9CoSSh-NuzxBF3Q_CdvZ11glMBtjr8wAXTLPhtsLQBct9SjWKQ7fOX3c7Bca0ZHvA=w476-h847-no">
-            </div>
-          </div>
-          
-        </div>
+      
       </div>
       
       
         
-      </div>
+
         
-      <br>
-      <br>
+
       <hr>
       
         <footer>
@@ -155,6 +149,9 @@
       <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
 
